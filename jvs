@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+clear
+echo
+echo "------ Jarvis: START ------"
+echo
+# npm run dev
+node index.js
+echo
+echo "------ Jarvis: End ------"
+echo
