@@ -5,9 +5,9 @@ set -euo pipefail
 clear
 
 echo
-echo "------ Jarvis: START ------"
+echo "------ Runner: START ------"
 echo
 node ./playground.js
 echo
-echo "------ Jarvis: End ------"
+echo "------ Runner: End ------"
 echo
