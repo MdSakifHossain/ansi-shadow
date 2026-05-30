@@ -1,4 +1,4 @@
-import { renderText } from "./src/index.js";
+import { renderText } from "./index.js";
 
 const input = `Hello\nworld`;
 const output = renderText(input);
