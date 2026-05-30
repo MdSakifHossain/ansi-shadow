@@ -1,8 +1,5 @@
-import { renderLine } from "./src/helpers/render-line.js";
+import { renderText } from "./src/render-text.js";
 
 const input = `Hello\nworld`;
 
-const lines = input.split("\n");
-lines.map((line) => {
-  console.log(renderLine(line));
-});
+renderText(input);
