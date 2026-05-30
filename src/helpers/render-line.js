@@ -1,7 +1,7 @@
-import { FONT_HEIGHT } from "./constants.js";
-import { getGlyph } from "./get-glyph.js";
+import { FONT_HEIGHT } from "../constants/constants.js";
+import { getGlyph } from "../utils/get-glyph.js";
 
-export function renderText(text = "") {
+export function renderLine(text = "") {
   const normalizedText = String(text).toLowerCase();
 
   const outputLines = [];

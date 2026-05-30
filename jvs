@@ -7,7 +7,7 @@ clear
 echo
 echo "------ Jarvis: START ------"
 echo
-node ./src/index.js
+node ./playground.js
 echo
 echo "------ Jarvis: End ------"
 echo
