@@ -3,11 +3,11 @@
 set -euo pipefail
 
 clear
+
 echo
 echo "------ Jarvis: START ------"
 echo
-# npm run dev
-node index.js
+node ./src/index.js
 echo
 echo "------ Jarvis: End ------"
 echo
