@@ -1,5 +1,6 @@
-import { renderText } from "./src/render-text.js";
+import { renderText } from "./src/index.js";
 
 const input = `Hello\nworld`;
+const output = renderText(input);
 
-renderText(input);
+console.log(output);

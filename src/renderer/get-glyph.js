@@ -1,4 +1,4 @@
-import { FONT } from "../fonts/ansi-shadow.js";
+import { FONT } from "../glyphs/ansi-shadow.js";
 
 export function getGlyph(character) {
   if (typeof character !== "string") {

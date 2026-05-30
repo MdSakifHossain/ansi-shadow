@@ -1,5 +1,5 @@
 import { FONT_HEIGHT } from "../constants/constants.js";
-import { getGlyph } from "../utils/get-glyph.js";
+import { getGlyph } from "./get-glyph.js";
 
 export function renderLine(text = "") {
   const outputLines = [];
