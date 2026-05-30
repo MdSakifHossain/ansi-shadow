@@ -1,6 +1,9 @@
 import { renderText } from "./renderer/render-text.js";
 
-const input = "Sakif"
-const output = renderText(input);
+const input = `hello
+bitch`;
 
-console.log(output);
+const lines = input.split("\n");
+lines.map(line => {
+    console.log(renderText(line));
+});
