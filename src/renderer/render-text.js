@@ -12,7 +12,7 @@ export function renderText(text = "") {
     for (const character of normalizedText) {
       const glyph = getGlyph(character);
 
-      line += glyph[row] + " ";
+      line += glyph[row];
     }
 
     outputLines.push(line);
