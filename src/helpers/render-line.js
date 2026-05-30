@@ -1,8 +1,9 @@
 import { FONT_HEIGHT } from "../constants/constants.js";
 import { getGlyph } from "../utils/get-glyph.js";
+import { sanitizeText } from "../utils/sanitize-text.js";
 
 export function renderLine(text = "") {
-  const normalizedText = String(text).toLowerCase();
+  const normalizedText = sanitizeText(text);
 
   const outputLines = [];
 
